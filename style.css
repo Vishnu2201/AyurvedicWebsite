@@ -367,7 +367,7 @@ ul {
       padding: 0 20px; } }
   .dento-btn.active, .dento-btn:focus, .dento-btn:hover {
     box-shadow: none;
-    background-color: transparent;
+    background-color: white;
     color: #00aeef; }
   .dento-btn.btn-2:focus, .dento-btn.btn-2:hover {
     background-color: #ffffff;
@@ -930,6 +930,7 @@ ul {
 
 .single-blog-item {
   position: relative;
+  margin-top: -120px;
   z-index: 1;
   box-shadow: 0 0 30px 0 rgba(0, 0, 0, 0.1); }
   .single-blog-item .blog-content {
@@ -939,7 +940,8 @@ ul {
       font-size: 20px;
       font-weight: 700;
       display: block;
-      margin-bottom: 10px; }
+      margin-bottom: 10px; 
+    }
       .single-blog-item .blog-content .post-title:focus, .single-blog-item .blog-content .post-title:hover {
         color: #00aeef; }
       @media only screen and (min-width: 992px) and (max-width: 1199px) {
@@ -1426,7 +1428,7 @@ ul {
   text-align: center; }
   .copywrite-content p {
     font-size: 12px;
-    color: #b7b7b7;
+    color: white;
     margin-bottom: 0; }
     .copywrite-content p span {
       font-weight: 500;
